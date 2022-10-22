@@ -14,7 +14,6 @@ buttonClick.forEach(button => button.addEventListener("click", () => {
     scoreOfTheGame.textContent = playRound(playerSelection, computerSelection);
 }));
 
-
 function computerPlay(){
     const choice = ["rock", "paper", "scissors"];
     computerSelection = choice[Math.floor(Math.random()*choice.length)];
